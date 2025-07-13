@@ -67,6 +67,7 @@ Makefile.in
 
 /release*
 /debug*
+/_build
 
 /visualc-tcl*
 
