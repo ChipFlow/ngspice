@@ -146,5 +146,5 @@ jobs:
       - name: Upload test result artifact
         uses: actions/upload-artifact@v4
         with:
-          name: test-result-${{matrix.os}}-${{matrix.compiler}}-${{matrix.build-type}}
-          path: ./_results.log
+          name: test-result-${{matrix.test}}-${{matrix.os}}-${{matrix.compiler}}-${{matrix.build-type}}
+          path: ./_build/_results.log
